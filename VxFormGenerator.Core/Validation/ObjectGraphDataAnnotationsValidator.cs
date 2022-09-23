@@ -19,8 +19,7 @@ namespace VxFormGenerator.Core.Validation
         private static readonly object ValidatedObjectsKey = new object();
         private ValidationMessageStore _validationMessageStore;
 
-        [CascadingParameter]
-        internal EditContext EditContext { get; set; }
+        [CascadingParameter] public EditContext EditContext { get; set; }
 
         protected override void OnInitialized()
         {

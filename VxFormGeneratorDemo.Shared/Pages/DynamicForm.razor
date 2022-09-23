@@ -12,7 +12,9 @@
         <EditForm Model="Model"
                   OnValidSubmit="HandleValidSubmit"
                   OnInvalidSubmit="HandleInValidSubmit">
-            <RenderFormElements></RenderFormElements>
+            
+             <DataAnnotationsValidator></DataAnnotationsValidator>
+             <RenderFormElements></RenderFormElements>
 
             <button class="btn btn-primary" type="submit">Submit</button>
         </EditForm>

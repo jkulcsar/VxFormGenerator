@@ -12,7 +12,7 @@ namespace VxFormGenerator.Core.Layout
 
         public List<VxFormGroup> Groups { get; protected set; } = new List<VxFormGroup>();
 
-        internal static VxFormDefinition CreateFromModel(object model, VxFormLayoutOptions options)
+        public static VxFormDefinition CreateFromModel(object model, VxFormLayoutOptions options)
         {
             // TODO: EXPANDO SWITCH
             var allProperties = VxHelpers.GetModelProperties(model.GetType());
