@@ -9,4 +9,8 @@
     <ProjectReference Include="..\VxFormGenerator.Core\VxFormGenerator.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Common.Model.MachineType" Version="1.0.19" />
+  </ItemGroup>
+
 </Project>
